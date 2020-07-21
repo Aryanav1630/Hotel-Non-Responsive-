@@ -1,0 +1,256 @@
+html{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden !important;
+}
+.navbar-brand h2{
+    font-family: 'Advent Pro', sans-serif;
+    color: black;
+}
+.link{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+.link:hover{
+    text-decoration: none;
+    color: grey;
+}
+.first{
+    width: 100vw;
+    height: 100vh;
+}
+.header-text{
+    font-family: 'Playfair Display', serif;
+    color: grey;
+    font-size:4em;
+    margin-top: -30px;
+}
+.header-line{
+    font-family: 'Advent Pro', sans-serif;
+    margin-top:20%;
+}
+.first-container{
+    position: relative;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+.carousel-img{
+    width: 80%;
+}
+.exploreBtn{
+    position: relative;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    top: 10px;
+}
+.exploreBtn:hover{
+    text-decoration: none;
+    color: grey;    
+}
+@media only screen and (max-width: 450px){
+    .col-md-6{
+        width: 100%;
+        left: 17%;
+    }
+    .first-container{
+        margin-top: 5%;
+    }
+    .header-line{
+        margin-top: 5%;
+    }
+    .header-text{
+        font-size: 2.5em;
+    }
+    .navbar-toggler-icon{
+        color:black;
+    }
+    .exploreBtn{
+        margin-left: 110px;
+        top: -40px;
+    }
+    .btnCheck{
+        margin-top:20px;    
+    }
+}
+.date{
+    margin-top: 7%;
+}
+.second{
+    width: 100vw;
+    height: auto;
+    background-color:#ececec;
+}
+.selectDrop{
+    margin-top:-16px
+}
+.check{
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+.secondHeader{
+    font-family: 'Old Standard TT', serif;
+    color:  #373737 ;
+    font-size: 3em;
+}
+.Secondcontent{
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: lightgrey;
+    margin-left: 5%;
+    width: 200px;
+}
+.contentImg{
+    margin-left: 40px
+}
+
+.third-header{
+    font-family: 'Old Standard TT', serif;
+    font-size: 3em;
+}
+.hotel-image{
+    width: 400px;
+}
+
+.wrapper{
+	display: grid;
+	background-color: #fff;
+	width: 1100px;
+	max-width: 100%;
+	height: 80vh;
+	margin: 0px auto;
+	grid-gap: 5px;
+	grid-template-rows: repeat(6,1fr);
+	padding: 5px;
+}
+.box{
+	background-color: #2ad8f2;
+}
+.box.one{
+	background: url(room1.jpg);
+	background-size: cover;
+	background-position: center;
+	grid-column: span 3;
+	grid-row: span 3;
+}
+.box.two{
+	background: url(room2.jpg);
+	background-size: cover;
+	background-position: center;
+	grid-column: span 2;
+	grid-row: span 2;
+}
+.box.three{
+	background: url(room3.jpg);
+	background-size: cover;
+	background-position: center;
+	grid-column: 4/span 2;
+	grid-row: 1/span 3;
+}
+.box.four{
+	background: url(room4.jpg);
+	background-size: cover;
+	background-position: center;
+	grid-column: 4/span 1;
+	grid-row: 4/span 2;
+}
+.box.six{
+	background: url(room5.jpg);
+	background-size: cover;
+	background-position: center;
+	grid-row: span 2;
+	grid-column: span 1;
+}
+.box.five{
+	background: url(room6.jpg);
+	background-size: cover;
+	background-position: center;
+	grid-row: span 1;
+	grid-column: span 1;
+}
+.box.seven{
+	background: url(room7.jpg);
+	background-size: cover;
+	background-position: center;
+	grid-column: span 1;
+	grid-row: span 1;
+}
+.lodging-text{
+    color:black;
+    margin-bottom:0px !important;
+    position: relative;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+.box:hover{
+    transform:scale(105%);
+}
+.fourth{
+    background-color:#ececec; 
+    width: 100vw;
+}
+.fourth-container{
+    position: relative;
+}
+.fourth-background{
+    opacity: 0.1
+}
+.fourth-header{
+    font-size: 4em;
+    font-family: 'Old Standard TT', serif;
+}
+
+.feedback-header{
+    font-size: 3em;
+    font-family: 'Old Standard TT', serif;
+}
+
+.testimonial{
+    width:300px;
+}
+.card{
+    border-radius: 10px;
+    width: 301px;
+    border: none;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 1px 2px 3px 2px; 
+}
+.card-title{
+    color:  #d59b2f;
+    background:transparent;
+    font-family: 'Playfair Display', serif;
+}
+
+.footer-header{
+    padding: 20px;
+    color: white; 
+    font-weight: bolders;   
+}
+
+.social-1{
+    padding: 20px;
+    background-color:white;
+}
+.social-2{
+    background-color:white;
+    padding: 20px;
+}
+.social-3{
+    background-color:white;
+    padding: 20px;
+}
+
+.social-1:hover{
+    cursor: pointer;
+}
+.social-2:hover{
+    cursor: pointer;
+}.social-3:hover{
+    cursor: pointer;
+}
